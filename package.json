@@ -1,0 +1,38 @@
+{
+  "name": "pametnik_unofficial_API",
+  "version": "0.1.0",
+  "description": " Api wraping pametnik.cz and used for unofficial mobile app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./tests --reporter spec",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/buresmi7/pametnik_unofficial_API.git"
+  },
+  "keywords": [
+    "pametnik",
+    "api",
+    "unofficial"
+  ],
+  "author": "Jan Zábojník, Michal Bureš",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/buresmi7/pametnik_unofficial_API/issues"
+  },
+  "homepage": "https://github.com/buresmi7/pametnik_unofficial_API",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-install": "^0.6.0",
+    "gulp-zip": "^3.2.0",
+    "mocha": "^3.0.2",
+    "node-aws-lambda": "^0.1.8",
+    "run-sequence": "^1.2.2"
+  },
+  "dependencies": {
+    "htmlparser2": "^3.9.1",
+    "soupselect": "^0.2.0"
+  }
+}
